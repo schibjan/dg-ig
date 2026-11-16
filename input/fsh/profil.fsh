@@ -39,7 +39,7 @@ Title: "DG Arzneimittelallergie"
 Description: "Arzneimittelallergie, wie sie in der Hausarztpraxis erfasst und auf der Notfallstation gelesen wird."
 
 // Anforderung 1: nur Allergien gegen Arzneimittel
-* category = #medications
+* category = #medication
 
 // Anforderung 2: klinischer Status
 * clinicalStatus 1..1

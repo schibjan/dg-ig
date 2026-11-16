@@ -24,7 +24,7 @@ Usage: #example
 Title: "Penicillin-Allergy Anna Muster"
 Description: "Penicillin-Allergy"
 * patient = Reference(AnnaMuster)
-* category = #medications
+* category = #medication
 * clinicalStatus = $allergy-clinical#active
 * verificationStatus = $allergy-verification#confirmed
 * code = $sct#91936005 "Allergy to penicillin"
