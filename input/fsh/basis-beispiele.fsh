@@ -13,8 +13,8 @@
 //
 // Diese Datei ist fertig. Eure eigenen Beispiele können auf diese
 // Instanzen verweisen, z. B.
-//   * patient = Reference(AnnaMuster)
-//   * recorder = Reference(DrSaraKeller)
+// * patient = Reference(AnnaMuster)
+// * recorder = Reference(DrSaraKeller)
 // =====================================================================
 
 Instance: AnnaMuster

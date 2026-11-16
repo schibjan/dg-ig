@@ -6,22 +6,21 @@
 
 ### Use Case
 
-TODO: Beschreibt in zwei bis drei Sätzen, welche Situation euer IG abbildet.
-Wer erfasst die Daten, wer liest sie, und wofür werden sie gebraucht?
+This implementation guide defines the structure to record patient-allergies.
+The doctor collect and enter the datas right after the patient's arrival.
+The primary use cases are emergencies.
 
 ### Scope
 
-TODO: Was deckt dieses IG ab, und was bewusst nicht?
+This ig is designed for emergencies, so it exclusivel records medications allergies.
+Food allergies and other intolerances will therefore not be record.
 
 ### Artefakte
 
 TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
 
-* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): TODO
-* [Titel eures Beispiels](AllergyIntolerance-TODO_Name.html): TODO
-
-<!-- TODO_Name ist der Name hinter "Instance:" in beispiele.fsh,
-     z. B. AllergyIntolerance-PenicillinAllergieAnna.html -->
+* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): A FHIR-profil based on CH Core that sets the mandatory rules
+* [Titel eures Beispiels](AllergyIntolerance-PenicillinAllergieAnna.html): An example dataset of a patient with a penicillin allergy
 
 ### Abhängigkeiten
 
@@ -29,6 +28,6 @@ Dieses IG baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf.
 
 ### Autorin oder Autor
 
-TODO: Euer Name.
+Janine Schibli
 
 <p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>

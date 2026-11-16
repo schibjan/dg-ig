@@ -62,3 +62,4 @@ Description: "Arzneimittelallergie, wie sie in der Hausarztpraxis erfasst und au
 
 // Invariante (steht schon in invarianten.fsh), nur die // entfernen:
 * obeys dg-allergy-1
+ 
