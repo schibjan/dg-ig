@@ -6,21 +6,19 @@
 
 ### Use Case
 
-This implementation guide defines the structure to record patient-allergies.
-The doctor collect and enter the datas right after the patient's arrival.
+This implementation guide defines the structure to record patient allergies.
+The doctor collects and enter the data right after the patient's arrival.
 The primary use cases are emergencies.
 
 ### Scope
 
-This ig is designed for emergencies, so it exclusivel records medications allergies.
-Food allergies and other intolerances will therefore not be record.
+This IG is designed for emergencies, so it exclusively records medication allergies.
+Food allergies and other intolerances will therefore not be recorded.
 
 ### Artefakte
 
-TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
-
-* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): A FHIR-profil based on CH Core that sets the mandatory rules
-* [Titel eures Beispiels](AllergyIntolerance-PenicillinAllergieAnna.html): An example dataset of a patient with a penicillin allergy
+* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): A FHIR-profile based on CH Core that sets the mandatory rules
+* [Penicillin Allergy Anna Muster](AllergyIntolerance-PenicillinAllergyAnna.html): An example dataset of a patient with a penicillin allergy
 
 ### Abhängigkeiten
 
